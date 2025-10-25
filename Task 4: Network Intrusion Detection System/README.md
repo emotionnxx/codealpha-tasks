@@ -1,7 +1,7 @@
 # Network Intrusion Detection System
 
 ## Objective
-To deploy Snort 3 as an IDS on Kali Linux to monitor real-time network traffic, detect anomalies, and respond to suspicious activities.
+This task focused on configuring **Snort**, a popular open source Intrusion Detection System (IDS) to **monitor network traffic**, **detect malicious activity** and **log alerts for analysis**. 
 
 ## Tools Used 
 - Kali Linux (VMware)
