@@ -6,9 +6,9 @@ To build and run a simple Python based network sniffer that captures and analyze
 ## Tools Used 
 - Kali Linux (VMware)
 - Windows 10 (Vmware) - as a remote host generating network activity.
-- Scapy - for packet sniffing and decoding
+- Scapy (for packet sniffing and decoding)
 - Python 3
-- Wireshark - to display captured traffic 
+- Wireshark (to display captured traffic )
 
 ## Implementation Steps ##
 1. **Prerequisites**: 
@@ -16,7 +16,7 @@ To build and run a simple Python based network sniffer that captures and analyze
     - Administrator/root access to run the script, as raw sockets require elevated permissions.
 
 2. **Setup**:
-   - Created working directory:
+   - Created working directory on Kali:
      ```bash
      mkdir Sniffer_evidence
      ```
