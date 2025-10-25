@@ -47,11 +47,11 @@ To deploy Snort 3 as an IDS on Kali Linux to monitor real-time network traffic, 
      ```
      This ensured Snort loads the custom rules in addition to its built-in signatures, enabling detection of activities we wanted to monitor during testing.
 
-    - Output logging was also configured in Snort's configure output section:
+   - Output logging was also configured in Snort's configure output section:
      ```bash
      alert_fast = { file = true, limit = 50 }
      ```
-     This ensured that Snort logs alerts for later analysis to:
+   This ensured that Snort logs alerts for later analysis to:
      ```bash
      /var/log/snort/alert_fast.txt
    
