@@ -24,3 +24,9 @@ To build and run a simple Python based network sniffer that captures and analyze
      ```bash
      cd Sniffer_evidence
      ```
+
+3. **Run the script**:
+   - Clone the repository or download the script:
+     ```bash
+     git clone https://github.com/yourusername/network-sniffer.git
+     ```
