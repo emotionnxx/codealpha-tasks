@@ -28,5 +28,17 @@ To build and run a simple Python based network sniffer that captures and analyze
 3. **Run the script**:
    - Clone the repository or download the script:
      ```bash
-     git clone https://github.com/yourusername/network-sniffer.git
+     git clone (Basic-Network-Sniffer/py_sniffer.py)
      ```
+   - Filters were added to capture common protocols
+   - You may also need to run the script with elevated privileges to use raw sockets:
+     ```bash
+     sudo python3 py_sniffer.py "udp port 53 or icmp or tcp port 80 or tcp port 22"
+     ```
+
+## Usage
+- The script listens for incoming Ethernet frames and prints information such as MAC addresses, Ethernet protocol, and IPv4 packet details.
+- To start sniffing, simply run the script as mentioned above. It will run in an infinite loop and output packet details as they are captured.
+- Subsequently, the windows VM was used to generate traffic by trigerring ping, tracert, and ssh commands which generated ICMP + TCP traffic.
+- Packets were saved and opened on wireshark for a more appreciated visual display.
+
