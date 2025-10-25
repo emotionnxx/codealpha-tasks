@@ -8,6 +8,7 @@ To deploy Snort 3 as an IDS on Kali Linux to monitor real-time network traffic, 
 - Snort 3 IDS
 - Windows 10 VM (for attack simulation)
 - Python 3 + Matplotlib (for log visualization)
+- Nmap
 
 ## Implementation Steps ##
 1. **Prerequisites**: 
@@ -79,3 +80,15 @@ To deploy Snort 3 as an IDS on Kali Linux to monitor real-time network traffic, 
      git clone (Network Intrusion Deection/snort_visualize.py)
      ```
 
+## Output
+![snort_image](sno_1.png)
+![snort_image](sno_2.png)
+![snort_image](sno_3.png)
+
+## Observation
+   - Snort detected ICMP, TCP and ARP corresponding to ping, SSH and scan activity
+   - The events were logged in real time and exported for analysis
+
+## Conclusion
+   - This project demonstrated the process of setting up an IDS using Snort, writing custom detection rules, and visualizing logged events.
+   - It showed the importance of continous traffic monitoring and post-incident analysis as part of modern network defense.
